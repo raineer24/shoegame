@@ -286,9 +286,6 @@ a.view, a.read {
 	text-transform: uppercase;
 	font-family: 'Oswald';
 }
-.m3 a img {
-	width: 100%;
-}
 span.leftLine {
 	background: url(../images/border.png) no-repeat 0px 0px;
     width: 38%;
@@ -315,6 +312,9 @@ span.rightLine {
 }
 .arrivals {
 	padding: 1em 0;
+}
+.arrivals a img {
+	width: 100%;
 }
 .main h1 {
 	font-family: 'Museo Sans 300';
