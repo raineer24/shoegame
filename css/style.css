@@ -360,6 +360,9 @@ span.rightLine {
 .blog {
 	margin-bottom: 2em;
 }
+.blog a img {
+	width: 100%;
+}
 .blog p {
 	 font-family: 'Museo Sans 500';
     font-size: 1em;
