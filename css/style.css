@@ -286,6 +286,9 @@ a.view, a.read {
 	text-transform: uppercase;
 	font-family: 'Oswald';
 }
+.m3 a img {
+	width: 100%;
+}
 span.leftLine {
 	background: url(../images/border.png) no-repeat 0px 0px;
     width: 38%;
