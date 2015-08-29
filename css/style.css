@@ -313,7 +313,7 @@ span.rightLine {
 .arrivals {
 	padding: 1em 0;
 }
-.arrivals a img {
+.arrivals .col-md-3 a img {
 	width: 100%;
 }
 .main h1 {
