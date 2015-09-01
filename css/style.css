@@ -234,21 +234,19 @@ i.cart {
 	display: flex;
     margin: 0;
     padding: 0 15px 0 0;
+   
 }
 .sectionGrid li {
 	display: inline-block;
 	background: #f5f6f1;
     padding: 1.2em;
     text-align: center;
+    margin-right: 10px;
+   
+    
 }
-.sectionGrid h2 {
-	font-family: 'Oswald';
-    text-transform: uppercase;
-    color: #252525;
-}
-.sectionGrid p {
-	font-family: 'Museo Sans 700 Italic';
-  color: #252525;
+.topGrid {
+
 }
 .topGrid h2 {
 	font-family: 'Oswald';
