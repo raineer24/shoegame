@@ -233,7 +233,7 @@ i.cart {
 .sectionGrid {
 	display: flex;
     margin: 0;
-    padding: 0 15px 0 0;
+    padding: 0;
    
 }
 .sectionGrid li {
@@ -241,12 +241,12 @@ i.cart {
 	background: #f5f6f1;
     padding: 1.2em;
     text-align: center;
-    margin-right: 10px;
+     margin-right: 10px; */
    
     
 }
-.topGrid {
-
+.sectionGrid li:last-child {
+	margin-right: 0px;
 }
 .topGrid h2 {
 	font-family: 'Oswald';
