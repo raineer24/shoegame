@@ -300,7 +300,7 @@ a.view, a.read {
 }
 span.leftLine {
 	background: url(../images/border.png) no-repeat 0px 0px;
-    width: 38%;
+    width: 36%;
     position: absolute;
     display: block;
     left: -1px;
@@ -309,7 +309,7 @@ span.leftLine {
 }
 span.rightLine {
 	background: url(../images/border.png) no-repeat 0px 0px;
-    width: 37%;
+    width: 35%;
     position: absolute;
     display: block;
     right: 12px;
