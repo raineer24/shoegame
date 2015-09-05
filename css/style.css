@@ -323,6 +323,12 @@ span.rightLine {
 .arrivals {
 	padding: 1em 0;
 }
+.arrivals ul {
+	display: flex;
+}
+.arrivals li {
+	display: inline-block;
+}
 .arrivals .col-md-3 a img {
 	width: 100%;
 }
