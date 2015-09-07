@@ -336,7 +336,7 @@ span.rightLine {
 }
 .main h1 {
 	font-family: 'Museo Sans 300';
-	font-size: 1.1em;
+	font-size: 1.2em;
 	min-height: 2em;
 }
 .main h3 a {
@@ -521,3 +521,4 @@ p.copyright {
     text-indent: -999px;
     text-decoration: none;
 }
+/* responsive */
