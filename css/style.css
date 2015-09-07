@@ -522,3 +522,15 @@ p.copyright {
     text-decoration: none;
 }
 /* responsive */
+@media(max-width:480px) {
+	.headLeft {
+		float: left;
+		display: none;
+	}
+}
+@media(max-width:320px) {
+	.logo {
+		float: left;
+		width: 42%;
+	}
+}
