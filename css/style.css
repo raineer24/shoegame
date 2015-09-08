@@ -522,6 +522,11 @@ p.copyright {
     text-decoration: none;
 }
 /* responsive */
+@media(max-width:780px) {
+	.head-nav ul {
+		display: none;
+	}
+}
 @media(max-width:480px) {
 	.headLeft {
 		float: left;
@@ -534,3 +539,4 @@ p.copyright {
 		width: 42%;
 	}
 }
+
