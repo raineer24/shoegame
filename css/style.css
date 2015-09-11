@@ -527,6 +527,9 @@ p.copyright {
 	.head-nav ul {
 		display: none;
 	}
+	span.menu:before {
+		content: url(../images/nav.png);
+	}
 }
 @media(max-width:480px) {
 	.headLeft {
