@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 ul, ol {
 	margin: 0;
+	padding: 0;
 }
 p { 
 	margin: 0;
@@ -300,7 +301,7 @@ a.view, a.read {
 }
 span.leftLine {
 	background: url(../images/border.png) no-repeat 0px 0px;
-    width: 38%;
+    width: 35%;
     position: absolute;
     display: block;
     left: -1px;
@@ -309,7 +310,7 @@ span.leftLine {
 }
 span.rightLine {
 	background: url(../images/border.png) no-repeat 0px 0px;
-    width: 37%;
+    width: 34%;
     position: absolute;
     display: block;
     right: 12px;
@@ -323,12 +324,21 @@ span.rightLine {
 .arrivals {
 	padding: 1em 0;
 }
+.arrivals ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+.arrivals li {
+	display: inline-block;
+}
 .arrivals .col-md-3 a img {
 	width: 100%;
 }
 .main h1 {
 	font-family: 'Museo Sans 300';
-	font-size: 18px;
+	font-size: 1.2em;
+	min-height: 2em;
 }
 .main h3 a {
 	font-family: 'Museo Sans 700';
@@ -512,3 +522,29 @@ p.copyright {
     text-indent: -999px;
     text-decoration: none;
 }
+/* responsive */
+@media(max-width:780px) {
+	.head-nav ul {
+		display: none;
+	}
+	span.menu:before {
+		content: url(../images/nav.png);
+	}
+}
+@media(max-width:480px) {
+	.headLeft {
+		float: left;
+		display: none;
+	}
+}
+@media(max-width:320px) {
+	.logo {
+		float: left;
+		width: 42%;
+	}
+	.headerBottom {
+		float: right;
+		width: 45%;
+	}
+}
+
