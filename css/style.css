@@ -137,7 +137,7 @@ ul.number li span, ul.number li a {
 	color: #fff;
 }
 .head-cart {
-	float: right;
+	/*float: right; */
 }
 .head-cart ul li {
 	display: inline-block;
