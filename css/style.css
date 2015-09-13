@@ -524,8 +524,17 @@ p.copyright {
 }
 /* responsive */
 @media(max-width:780px) {
+	.header {
+		padding: 1em 0;
+	}
+	.head-nav {
+		margin-top: 0;
+	}
 	.head-nav ul {
 		display: none;
+	}
+	span.menu {
+		display: block;
 	}
 	span.menu:before {
 		content: url(../images/nav.png);
