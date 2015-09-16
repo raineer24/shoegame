@@ -552,11 +552,12 @@ p.copyright {
     	width: 100%;
     	left: 0;
     	z-index: 999;
+    	background: #ccc;
 	}
 	.head-nav ul.res li {
 		text-align: center;
 	    width: 100%;
-	    background-color: #ccc;
+	    
 	}
 	span.menu {
 		display: block;
