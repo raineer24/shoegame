@@ -553,6 +553,7 @@ p.copyright {
     	left: 0;
     	z-index: 999;
     	background: #ccc;
+    	color: #ccc;
 	}
 	.head-nav ul.res li {
 		text-align: center;
