@@ -544,8 +544,13 @@ p.copyright {
 	.head-nav {
 		margin-top: 0;
 	}
-	.head-nav ul {
+	ul.res {
 		display: none;
+	}
+	.head-nav ul {
+		position: absolute;
+    	width: 100%;
+    	left: 0;
 	}
 	span.menu {
 		display: block;
