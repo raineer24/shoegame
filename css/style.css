@@ -551,6 +551,12 @@ p.copyright {
 		position: absolute;
     	width: 100%;
     	left: 0;
+    	z-index: 999;
+	}
+	.head-nav ul.res li {
+		text-align: center;
+	    width: 100%;
+	    background-color: #ccc;
 	}
 	span.menu {
 		display: block;
@@ -573,6 +579,9 @@ p.copyright {
 	.headerBottom {
 		float: right;
 		width: 45%;
+	}
+	.head-nav ul {
+		padding: 1.2em 0em 0em 0em;
 	}
 }
 
