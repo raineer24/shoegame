@@ -537,6 +537,10 @@ p.copyright {
 	.header {
 		padding: 1em 0;
 	}
+	.headerRight {
+		width: 50%;
+		float: right;
+	}
 	.head-nav {
 		margin-top: 0;
 	}
