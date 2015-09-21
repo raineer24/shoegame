@@ -533,7 +533,7 @@ p.copyright {
 		width: 60%;
 	}
 	.banner h1 {
-		font-size: 1.3em;
+		font-size: 2em;
 	}
 	.rightGrid {
 		width: 50%;
@@ -591,6 +591,9 @@ p.copyright {
 	}
 	.head-nav ul {
 		padding: 1.2em 0em 0em 0em;
+	}
+	.banner h1 {
+		font-size: 1.3em;
 	}
 	
 }
