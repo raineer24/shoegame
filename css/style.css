@@ -589,9 +589,8 @@ p.copyright {
 		float: left;
 		width: 42%;
 	}
-	.headerBottom {
-		float: right;
-		width: 45%;
+	.headRight ul li a {
+		font-size: 12px;
 	}
 	.head-nav ul {
 		padding: 1.2em 0em 0em 0em;
