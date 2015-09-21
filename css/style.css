@@ -585,5 +585,8 @@ p.copyright {
 	.head-nav ul {
 		padding: 1.2em 0em 0em 0em;
 	}
+	.banner h1 {
+		font-size: 1.3em;
+	}
 }
 
