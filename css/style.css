@@ -532,6 +532,13 @@ p.copyright {
 	.headerRight {
 		width: 60%;
 	}
+	.banner h1 {
+		font-size: 1.3em;
+	}
+	.rightGrid {
+		width: 50%;
+		margin-top: 2em;
+	}
 }
 @media(max-width:780px) {
 	.header {
@@ -585,8 +592,6 @@ p.copyright {
 	.head-nav ul {
 		padding: 1.2em 0em 0em 0em;
 	}
-	.banner h1 {
-		font-size: 1.3em;
-	}
+	
 }
 
