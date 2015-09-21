@@ -583,6 +583,18 @@ p.copyright {
 	.banner h1 {
 		font-size: 1.8em;
 	}
+	.sectionGrid {
+		display: inline-block;
+	}
+	
+	.topGrid {
+		width: 100%;
+		margin-top: 1em;
+		float: none;
+	}
+	.topGrid h2 {
+		font-size: 1.2em;
+	}
 }
 @media(max-width:320px) {
 	.logo {
@@ -602,7 +614,7 @@ p.copyright {
 		top: 63%;
 	}
 	.callbacks_nav {
-		
+
 	}
 }
 
