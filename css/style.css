@@ -596,6 +596,8 @@ p.copyright {
 	.banner h1 {
 		font-size: 1.3em;
 	}
-	
+	.callbacks_nav {
+		top: 63%;
+	}
 }
 
