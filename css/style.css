@@ -580,6 +580,9 @@ p.copyright {
 		float: left;
 		display: none;
 	}
+	.banner h1 {
+		font-size: 1.8em;
+	}
 }
 @media(max-width:320px) {
 	.logo {
