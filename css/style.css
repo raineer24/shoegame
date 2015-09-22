@@ -595,9 +595,13 @@ p.copyright {
 	.topGrid h2 {
 		font-size: 1.2em;
 	}
+	.arrivals .col-md-3 {
+		padding-left: 20px;
+	}
 	.arrivals ul {
 		display: block;
 	}
+
 }
 @media(max-width:320px) {
 	.logo {
