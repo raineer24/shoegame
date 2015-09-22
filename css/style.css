@@ -595,6 +595,9 @@ p.copyright {
 	.topGrid h2 {
 		font-size: 1.2em;
 	}
+	.arrivals ul {
+		display: block;
+	}
 }
 @media(max-width:320px) {
 	.logo {
