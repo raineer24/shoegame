@@ -626,5 +626,8 @@ p.copyright {
 	.arrivals .col-md-3 {
 		padding-left: 0;
 	}
+	.storeInfo h3 {
+		font-size: 1.6em;
+	}
 }
 
