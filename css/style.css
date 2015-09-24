@@ -642,6 +642,10 @@ p.copyright {
 		margin-left: 0;
 		text-align: center; 
 	}
+	.footerCenter ul {
+		color: #463f3a;
+		padding: 0 0 0.5em 0;
+	}
 	.footerCenter ul li a {
 		padding: 0;
 		font-size: 1em;
