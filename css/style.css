@@ -541,7 +541,7 @@ p.copyright {
 		margin-top: 2em;
 	}
 }
-@media(max-width:780px) {
+@media(max-width:991px) {
 	.header {
 		padding: 1em 0;
 	}
@@ -550,8 +550,8 @@ p.copyright {
 		float: right;
 	}
 	.head-nav {
-		margin-top: 0;
-	}
+		margin-top: 0
+;	}
 	ul.res {
 		display: none;
 	}
@@ -562,6 +562,8 @@ p.copyright {
     	z-index: 999;
     	background: #ccc;
     	color: #ccc;
+    	margin: 2em 0;
+    	
 	}
 	.head-nav ul.res li {
 		text-align: center;
@@ -576,12 +578,41 @@ p.copyright {
 	}
 	.storeInfo h3 {
 		font-size: 2em;
+	}.header {
+		padding: 1em 0;
+	}
+	.headerRight {
+		width: 50%;
+		float: right;
+	}
+	.head-nav {
+		margin-top: 0
+;	}
+	ul.res {
+		display: none;
+	}
+	.head-nav ul.res li {
+		text-align: center;
+	    width: 100%;
+	    
+	}
+	.storeInfo h3 {
+		font-size: 2em;
 	}
 }
+@media(max-width:780px) {
+
+}
 @media(max-width:480px) {
+	.logo {
+		width: 40%;
+	}
 	.headLeft {
 		float: left;
 		display: none;
+	}
+	.head-nav ul {
+		margin: 0.5em 0;
 	}
 	.banner h1 {
 		font-size: 1.8em;
