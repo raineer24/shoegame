@@ -632,6 +632,12 @@ p.copyright {
 	.arrivals .col-md-3 {
 		padding-left: 30px;
 	}
+	span.leftLine {
+		width: 20%;
+	}
+	span.rightLine {
+		width: 15%;
+	}
 	.arrivals ul {
 		display: block;
 	}
@@ -677,6 +683,12 @@ p.copyright {
 	}
 	.callbacks_nav {
 
+	}
+	span.leftLine {
+		width: 11%;
+	}
+	span.rightLine {
+		width: 6%;
 	}
 	.arrivals .col-md-3 {
 		padding-left: 0;
