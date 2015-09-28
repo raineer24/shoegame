@@ -653,6 +653,9 @@ p.copyright {
 		padding: 0;
 		font-size: 1em;
 	}
+	.socialIcons {
+		margin-left: 6em;
+	}
 
 
 }
@@ -680,6 +683,9 @@ p.copyright {
 	}
 	.storeInfo h3 {
 		font-size: 1.6em;
+	}
+	.socialIcons {
+		margin-left: 4em;
 	}
 	
 }
