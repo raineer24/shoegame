@@ -601,7 +601,12 @@ p.copyright {
 	}
 }
 @media(max-width:780px) {
-
+	span.leftLine {
+		width: 32%;
+	}
+	span.rightLine {
+		width: 31%;
+	}
 }
 @media(max-width:480px) {
 	.logo {
@@ -633,10 +638,10 @@ p.copyright {
 		padding-left: 30px;
 	}
 	span.leftLine {
-		width: 20%;
+		width: 15%;
 	}
 	span.rightLine {
-		width: 15%;
+		width: 11%;
 	}
 	.arrivals ul {
 		display: block;
