@@ -666,6 +666,11 @@ p.copyright {
 	}
 	.socialIcons {
 		margin-left: 5.5em;
+		float: none;
+	}
+	.design {
+		float: none;
+		text-align: center;
 	}
 
 
