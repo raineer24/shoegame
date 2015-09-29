@@ -541,7 +541,7 @@ p.copyright {
 		margin-top: 2em;
 	}
 }
-@media(max-width:780px) {
+@media(max-width:991px) {
 	.header {
 		padding: 1em 0;
 	}
@@ -550,8 +550,8 @@ p.copyright {
 		float: right;
 	}
 	.head-nav {
-		margin-top: 0;
-	}
+		margin-top: 0
+;	}
 	ul.res {
 		display: none;
 	}
@@ -562,6 +562,8 @@ p.copyright {
     	z-index: 999;
     	background: #ccc;
     	color: #ccc;
+    	margin: 2em 0;
+    	
 	}
 	.head-nav ul.res li {
 		text-align: center;
@@ -576,12 +578,46 @@ p.copyright {
 	}
 	.storeInfo h3 {
 		font-size: 2em;
+	}.header {
+		padding: 1em 0;
+	}
+	.headerRight {
+		width: 50%;
+		float: right;
+	}
+	.head-nav {
+		margin-top: 0
+;	}
+	ul.res {
+		display: none;
+	}
+	.head-nav ul.res li {
+		text-align: center;
+	    width: 100%;
+	    
+	}
+	.storeInfo h3 {
+		font-size: 2em;
+	}
+}
+@media(max-width:780px) {
+	span.leftLine {
+		width: 32%;
+	}
+	span.rightLine {
+		width: 31%;
 	}
 }
 @media(max-width:480px) {
+	.logo {
+		width: 40%;
+	}
 	.headLeft {
 		float: left;
 		display: none;
+	}
+	.head-nav ul {
+		margin: 0.5em 0;
 	}
 	.banner h1 {
 		font-size: 1.8em;
@@ -601,15 +637,47 @@ p.copyright {
 	.arrivals .col-md-3 {
 		padding-left: 30px;
 	}
+	span.leftLine {
+		width: 15%;
+	}
+	span.rightLine {
+		width: 11%;
+	}
 	.arrivals ul {
 		display: block;
 	}
+	.footer .logo {
+		float: none;
+		width: 100%;
+		margin:0 0 0.6em 2.6em;
+	}
+	.footerCenter {
+		padding: 0;
+		margin-left: 0;
+		text-align: center; 
+	}
+	.footerCenter ul {
+		color: #463f3a;
+		padding: 0 0 0.5em 0;
+	}
+	.footerCenter ul li a {
+		padding: 0;
+		font-size: 1em;
+	}
+	.socialIcons {
+		margin-left: 5.5em;
+		float: none;
+	}
+	.design {
+		float: none;
+		text-align: center;
+	}
+
 
 }
 @media(max-width:320px) {
-	.logo {
-		float: left;
-		width: 42%;
+	.footer .logo {
+		margin: 0 0 0.6em 1.4em;
 	}
 	.headRight ul li a {
 		font-size: 12px;
@@ -626,29 +694,21 @@ p.copyright {
 	.callbacks_nav {
 
 	}
+	span.leftLine {
+		width: 11%;
+	}
+	span.rightLine {
+		width: 6%;
+	}
 	.arrivals .col-md-3 {
 		padding-left: 0;
 	}
 	.storeInfo h3 {
 		font-size: 1.6em;
 	}
-	.footer .logo {
-		float: none;
-		width: 100%;
-		margin:0 0 0.6em 1.4em;
+	.socialIcons {
+		margin-left: 4em;
 	}
-	.footerCenter {
-		padding: 0;
-		margin-left: 0;
-		text-align: center; 
-	}
-	.footerCenter ul {
-		color: #463f3a;
-		padding: 0 0 0.5em 0;
-	}
-	.footerCenter ul li a {
-		padding: 0;
-		font-size: 1em;
-	}
+	
 }
 
