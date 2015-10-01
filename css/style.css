@@ -529,7 +529,7 @@ p.copyright {
     text-decoration: none;
 }
 /* responsive */
-@media(max-width:1024px) {
+@media(max-width:1080px) {
 	.headerRight {
 		width: 60%;
 	}
