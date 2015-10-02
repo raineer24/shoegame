@@ -65,7 +65,7 @@ p {
 }
 .headerRight {
 	float: left;
-	width: 50%;
+	width: 55%;
 }
 .headLeft {
 	float: left;
@@ -536,10 +536,15 @@ p.copyright {
 	.banner h1 {
 		font-size: 3.2em;
 	}
+	.headerRight {
+    float: left;
+    width: 55%;
+	}
 	.rightGrid {
 		width: 50%;
 		margin-top: 2em;
 	}
+	
 }
 @media(max-width:991px) {
 	.header {
